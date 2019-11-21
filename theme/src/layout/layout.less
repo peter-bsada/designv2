@@ -1,0 +1,117 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+ @footerColor: #0033cc;
+ @center: center;
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.outer-wrap {
+    width: 100%;
+    overflow: auto;
+}
+
+.inner-wrap-main {
+    padding: 30px 0;
+}
+
+// Footer
+.outer-wrap-footer {
+    background-color: @footerColor;
+}
+
+.inner-wrap-footer {
+    padding: 30px 0;
+}
+
+.region-footer .block {
+    padding-top: 10px;
+    width: 100%;
+    text-align: @center;
+}
+
+.footer-column-x {
+color: white;   
+}
+
+// Header
+.region-header-col-1 {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 60%;
+}
+
+/* Byline */
+.byline img {
+    width: 100px;
+    height: 150px;
+    float: left;
+    position: relative;
+    left: 350px;
+}
+.byline p {
+    width: 10%;
+    padding: 10px;
+}
+
+/* Text */
+.article h1 {
+    text-align: @center;
+}
+.article p {
+    text-align: @center;
+    position: relative;
+    left: 30%;
+    width: 40%
+}
+
+/* image */
+.site-logo img {
+    width: 0;
+}
+.right img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+// Text center
+
+.article h2 {
+    text-align: @center;
+}
+
+.article li {
+    text-align: @center;
+}
+.block p {
+    text-align: @center;
+}
+
+.block h4 {
+    text-align: @center;
+    padding-top: 20px;
+}

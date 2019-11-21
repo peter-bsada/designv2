@@ -13,6 +13,6 @@ Hej jag heter Peter Bsada och är född år 2000. Jag är född och uppvuxen i S
 Jag ser fram emot kursen och allt jag kommer allt lära. Jag har alltid haft intresse att designa sidor så att det ser bra ut.
 
 /Peter
-<hr >
+<hr>
 [FIGURE src="image/jag.jpg?w=500" class="byline" caption="Peter Bsada"]
 <p>Peter Bsada studerar just nu i BTH högskolam som webbprogamerare. Peter studerade innan i nti-gymnasiet och studerade teknik. Peter har programerat liten sen innan men inget för komplicerat</p>
