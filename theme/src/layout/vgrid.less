@@ -1,0 +1,250 @@
+/**
+ *layout using vgrid
+ */
+
+/**
+ * Variables
+ */
+
+@innerwrapcolor: #d6d6c2;
+@footerColor: #0033cc;
+@center: center;
+
+/**
+ * General layout
+ */
+
+.row {
+ #desinax-vgrid.row();
+
+ //background-color: #0f0;
+ margin-bottom: 12px;
+}
+
+
+// .inner-wrap {
+//     #desinax-vgrid.grid(1100px);
+// }
+//
+// .inner-wrap-header,
+// .inner-wrap-footer {
+//     #desinax-vgrid.grid(100%);
+// }
+
+.inner-wrap {
+    // max-width: 1100px;
+    #desinax-vgrid.grid(1100px);
+    // margin: 0 auto;
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+    padding-bottom: 2em;
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+
+.outer-wrap {
+    // width: 100%;
+    //overflow: auto;
+}
+
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-flash {
+    #desinax-vgrid.column(@columns);
+}
+
+
+.inner-wrap-main {
+    background-color: @innerwrapcolor;
+    padding: 30px 0;
+}
+.region-main {
+    #desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(2);
+
+    &.has-sidebar {
+        #desinax-vgrid.push(0)
+    }
+
+    &.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns - 10);
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(@columns * 1 / 4);
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.push(1);
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-left.has-sidebar-left {
+    #desinax-vgrid.column(@columns * 1 / 4 - 1);
+}
+
+// responsive 1, 2, 3
+
+@media screen and (max-width: 1000px) {
+ .region-main {
+     #desinax-vgrid.column(@columns);
+     //#desinax-vgrid.push(0);
+
+     &.has-sidebar-left.has-sidebar-right {
+         #desinax-vgrid.column(@columns);
+     }
+ }
+
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-left.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 850px) {
+     .region-main.has-sidebar-right {
+         #desinax-vgrid.column(@columns);
+    }
+    .region-sidebar-right {
+        //display: none;
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+    }
+}
+
+
+
+// Header
+.region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.column(5);
+    //float: left;
+    // width: 30%;
+    //margin-right: 10px;
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(14);
+    //float: left;
+    // width: 60%;
+}
+
+/* Byline */
+.byline img {
+    width: @fontSizeBody * 10;
+    height: @magicNumber * 10;
+    //float: left;
+    position: relative;
+    left: 350px;
+}
+.byline p {
+    // width: 10%;
+    padding: 10px;
+}
+
+/* Text */
+.article h1 {
+    text-align: @center;
+}
+.article p {
+    text-align: @center;
+    //position: relative;
+    //left: 30%;
+    // width: 40%
+}
+
+/* image */
+.site-logo img {
+    display: none;
+}
+
+.right img {
+    // width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: @fontSizeBody * 20;
+    height: @magicNumber * 15;
+}
+
+.figure img {
+    display: block;
+    //margin-left: auto;
+    //margin-right: auto;
+    padding-top: 30px;
+}
+
+// Text center
+
+.article h2 {
+    text-align: @center;
+}
+
+.article li {
+    text-align: @center;
+    width: @fontSizeBody * 20;
+}
+
+.block p {
+    text-align: @center;
+}
+
+.block h4 {
+    text-align: @center;
+    padding-top: 20px;
+}
+
+// Footer
+.outer-wrap-footer {
+    background-color: @footerColor;
+}
+
+.inner-wrap-footer {
+    padding: 30px 0;
+}
+
+.site-footer {
+    color: white;
+    #desinax-vgrid.column(@columns);
+}
+
+.footer-column-3  a{
+    color: white;
+}
+.region-footer .block {
+    padding-top: 10px;
+    // width: 100%;
+    text-align: @center;
+}
+
+.footer-column-x {
+color: white;
+}
+
+.footer-column {
+    #desinax-vgrid.column(@columns / 3);
+}

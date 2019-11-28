@@ -4985,7 +4985,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /* Background color */
 /* outer-wrap and inner-wrap  fixing width and height*/
 .inner-wrap {
-  width: 80%;
   margin: 0 auto;
 }
 /* Main */
@@ -5052,6 +5051,12 @@ body {
 }
 .inner-wrap-footer {
   padding: 30px 0;
+}
+.site-footer {
+  color: white;
+}
+.footer-column-3 a {
+  color: white;
 }
 .region-footer .block {
   padding-top: 10px;
