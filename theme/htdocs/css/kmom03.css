@@ -5254,9 +5254,11 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /* Text */
 .article h1 {
   text-align: center;
+  color: black;
 }
 .article p {
   text-align: center;
+  color: black;
 }
 /* image */
 .site-logo img {
@@ -5286,6 +5288,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .block h4 {
   text-align: center;
   padding-top: 20px;
+}
+.inner-wrap-footer h4,
+p {
+  color: white;
 }
 .outer-wrap-footer {
   background-color: #0033cc;
@@ -5317,6 +5323,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.my-navbar li:hover {
+  background-color: #0033cc;
 }
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
