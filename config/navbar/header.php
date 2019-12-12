@@ -58,5 +58,10 @@ return [
             "url" => "rapport",
             "title" => "rapport",
         ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "blogg",
+        ],
     ],
 ];

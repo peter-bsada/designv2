@@ -114,3 +114,63 @@ Vi använde inga refersener.
 -----------------------
 
 Mitt namn är Peter Bsada och jag jobbar med Alex Chahin och Andreas Ishak.
+
+
+hemsidadirekt färgval
+=======================
+
+<table style="border-spacing: 4px; border-collapse: separate">
+<tr>
+<td style="height: 50px; width: 50px; background-color: #0A6F43">
+<td style="height: 50px; width: 50px; background-color: #C9E3CA">
+<td style="height: 50px; width: 50px; background-color: #FFF">
+
+
+</tr>
+</table>
+
+Gröna Lund
+=======================
+
+
+Urval
+-----------------------
+
+Vi valde hemsidorna [jula](https://www.jula.se/), [hemsidadirekt](https://www.hemsidadirekt.se/) och
+[Gröna lund](https://www.gronalund.com/). Vi valde dess tre hemsidor eftersom vi ville ha stor skillnad mellan. Jula är ett vanligt företag, hemsidadirekt är en hemsida som skapar hemsidor så ville även jämföra deras sätt och nå ut till folk. Sedan tillslut valde vi Gröna lund eftersom Gröna lund är ett tivoli så är det stor skillnad från tidigare hemsidor som vi nämnt.
+
+Metod
+-----------------------
+
+Det verktyget vi använder för att utföra undersökning är colorzilla eftersom det är ett smidigt verktyg som hjälper oss ta fram färg på ett enkelt sätt. På sätt kan jag ta fram hemsidornas färgschema.
+
+Resultat
+-----------------------
+("Bilder kan ni se hos Alex Chahin")
+
+Gröna lund använder sig utav vit färg och grön färg för sin hemsida. De använder sig utav vit färg för det representerar renlighet samt använder de sig utav grön färg. Grön färg kan symbolisera naturen men det är väldigt enkelt för ögat och att acceptera den gröna färgen. Vi tror även de använder sig utav grön färg eftersom de heter gröna lund. Grön färg kan även stå för äventyrlig.
+
+Deras färgschema är mörkgrönt och vit.
+
+Den lite ljusare grönt är deras accentfärg eftersom det går bra ton i ton med den vanliga gröna färgen de använder.
+I navbaren använder de sig utav seriff samt brödtexten. De använder sig utav Sans-Seriff i rubriken för hemsidan.
+
+Notera val av typsnitt för H1-H3 samt brödtext, kommentera om det är serif eller sans-serif.
+De använder sig utav serif text i H1-H3 samt brödtext.
+Notera i en mening om du anser att webbplatsens färgval och typografi motsvarar den profil du tror att webbplatsen vill ha.
+Gröna lunds hemsida tror vi har fått det resultatet de vill de använder en grön färg som är acceptabelt för ögat samt passar bra med deras namn.
+
+
+Analys
+-----------------------
+Det vi kom fram till är att hemsidan är väldigt avslappnande och den passar för själva motivet att de vill sälja hemsidor. De måste bjuda in folk på ett välkomnande sätt. Vem som helst kan navigera sig runt utan konstigheter. De använde sig utav bra highlight färg eftersom det sticker ut ganska mycket.
+
+Referenser
+-----------------------
+Vi använde inga refersener.
+
+
+Övrigt
+-----------------------
+
+Mitt namn är Peter Bsada och jag jobbar med Alex Chahin och Andreas Ishak.

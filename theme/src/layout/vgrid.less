@@ -167,6 +167,25 @@
     // width: 10%;
     padding: 10px;
 }
+// @design
+
+figure.figure  {
+    #desinax-figure.figure();
+
+}
+
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
 
 /* Text */
 .article h1 {
@@ -188,15 +207,15 @@
 
 .right img {
     // width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    // display: block;
+    // margin-left: auto;
+    // margin-right: auto;
     width: @fontSizeBody * 20;
     height: @magicNumber * 15;
 }
 
 .figure img {
-    display: block;
+    // display: block;
     //margin-left: auto;
     //margin-right: auto;
     padding-top: 30px;

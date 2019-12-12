@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version of the stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom03. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
@@ -5132,7 +5132,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-right: 0.52083333%;
 }
 .inner-wrap-main {
-  background-color: #d6d6c2;
+  background-color: white;
   padding: 30px 0;
 }
 .region-main {
@@ -5251,15 +5251,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .byline p {
   padding: 10px;
 }
-/**
- * Figure with ASCIINEMA
- */
-/**
- * Figure with Codepen
- */
-/** --------------------------------------------------------------
- * Figure through .figure
- */
 figure.figure .right {
   display: table;
   padding: 0;
@@ -5376,7 +5367,7 @@ figure.figure-codepen {
 /* Text */
 .article h1 {
   text-align: center;
-  color: black;
+  color: #0000ff;
 }
 .article p {
   text-align: center;
@@ -5413,10 +5404,10 @@ figure.figure-codepen {
 }
 .inner-wrap-footer h4,
 p {
-  color: white;
+  color: black;
 }
 .outer-wrap-footer {
-  background-color: #0033cc;
+  background-color: #ccccb3;
 }
 .inner-wrap-footer {
   padding: 30px 0;
@@ -5447,7 +5438,7 @@ p {
   margin-right: 0.52083333%;
 }
 .my-navbar li:hover {
-  background-color: #0033cc;
+  background-color: #0000ff;
 }
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
@@ -5460,13 +5451,13 @@ p {
  */
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: white;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #ccccb3;
+  color: black;
+  background-color: white;
   font: 18px/1.33333333 "sans-serif";
 }
 * {
@@ -5801,6 +5792,15 @@ hr::after {
   border: 1px solid #6cbac4;
   color: #111;
 }
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
 /**
  * My own settings, not currently in their own module.
  */
