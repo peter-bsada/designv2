@@ -5251,128 +5251,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .byline p {
   padding: 10px;
 }
-/**
- * Figure with ASCIINEMA
- */
-/**
- * Figure with Codepen
- */
-/** --------------------------------------------------------------
- * Figure through .figure
- */
-figure.figure .right {
-  display: table;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 24px;
-  /* Chrome shinks images in td */
-  /* Position the images */
-}
-figure.figure .right img {
-  max-width: 100%;
-  display: block;
-}
-figure.figure .right figcaption {
-  display: table-caption;
-  caption-side: bottom;
-  padding-top: 12px;
-}
-figure.figure .right figcaption p {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-style: italic;
-}
-figure.figure .right td img {
-  max-width: none;
-}
-figure.figure .right.center {
-  clear: both;
-  margin: auto;
-}
-figure.figure .right.center figcaption {
-  text-align: center;
-}
-figure.figure .right.left {
-  float: left;
-  margin-right: 0.5em;
-}
-figure.figure .right.right {
-  float: right;
-  margin-left: 0.5em;
-}
-@media screen and (max-width: 963px) {
-  figure.figure .right.left.w67,
-  figure.figure .right.right.w67 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure .right.left.w67 img,
-  figure.figure .right.right.w67 img {
-    width: 962.5px;
-  }
-}
-@media screen and (max-width: 733px) {
-  figure.figure .right.left.w50,
-  figure.figure .right.right.w50 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure .right.left.w50 img,
-  figure.figure .right.right.w50 img {
-    width: 733.33333333px;
-  }
-}
-@media screen and (max-width: 688px) {
-  figure.figure .right.left.w40,
-  figure.figure .right.right.w40 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure .right.left.w40 img,
-  figure.figure .right.right.w40 img {
-    width: 687.5px;
-  }
-}
-@media screen and (max-width: 550px) {
-  figure.figure .right.left.w33,
-  figure.figure .right.right.w33 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure .right.left.w33 img,
-  figure.figure .right.right.w33 img {
-    width: 550px;
-  }
-}
-@media screen and (max-width: 367px) {
-  figure.figure .right.left.w25,
-  figure.figure .right.right.w25 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure .right.left.w25 img,
-  figure.figure .right.right.w25 img {
-    width: 366.66666667px;
-  }
-}
-figure.asciinema {
-  display: block;
-}
-figure.asciinema figcaption {
-  display: block;
-}
-figure.asciinema .asciicast {
-  margin: 0 !important;
-}
-figure.codepen,
-figure.figure-codepen {
-  width: 100%;
-}
 /* Text */
 .article h1 {
   text-align: center;
@@ -5387,15 +5265,14 @@ figure.figure-codepen {
   display: none;
 }
 .right img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 360px;
   height: 360px;
 }
 .figure img {
-  display: block;
   padding-top: 30px;
+}
+img:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .article h2 {
   text-align: center;

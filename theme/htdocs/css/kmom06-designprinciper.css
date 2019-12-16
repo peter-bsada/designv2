@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version of the stylesheet for design kmom06-designelement.
  *
  * This stylesheet is for the design course and kmom03. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
@@ -5132,7 +5132,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-right: 0.52083333%;
 }
 .inner-wrap-main {
-  background-color: #d6d6c2;
+  background-color: #ccccb8;
   padding: 30px 0;
 }
 .region-main {
@@ -5254,7 +5254,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /* Text */
 .article h1 {
   text-align: center;
-  color: black;
+  color: #ff0000;
 }
 .article p {
   text-align: center;
@@ -5290,10 +5290,10 @@ img:hover {
 }
 .inner-wrap-footer h4,
 p {
-  color: white;
+  color: black;
 }
 .outer-wrap-footer {
-  background-color: #0033cc;
+  background-color: #FFC266;
 }
 .inner-wrap-footer {
   padding: 30px 0;
@@ -5324,7 +5324,7 @@ p {
   margin-right: 0.52083333%;
 }
 .my-navbar li:hover {
-  background-color: #0033cc;
+  background-color: #ff0000;
 }
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
@@ -5337,14 +5337,14 @@ p {
  */
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: #FFC266;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #ccccb3;
-  font: 18px/1.33333333 "sans-serif";
+  color: black;
+  background-color: #FFC266;
+  font: 18px/1.33333333 'Source Sans Pro', serif;
 }
 * {
   padding: 0;
@@ -5678,6 +5678,15 @@ hr::after {
   border: 1px solid #6cbac4;
   color: #111;
 }
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
 /**
  * My own settings, not currently in their own module.
  */
