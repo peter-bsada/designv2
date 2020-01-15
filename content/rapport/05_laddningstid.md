@@ -24,13 +24,13 @@ Vårat [Excelark](https://docs.google.com/spreadsheets/d/1Vt5W0aDw1Lz0cDZFMxUTOe
 Jula hade ett lagom okej betyg på datoranvändning men deras mobilanvändning är lite segare. Det de skulle kunna göra för att förbättra laddningstiderna för bägge användningarna är att ta bort oanvänd CSS samt använda bilder i rätt form.
 
 ##### GRÖNA LUND
-[FIGURE src=image/grön.jpg?w=300](bilden kan ni se hos andeas eller alex)
+[FIGURE src=image/g.jpg?w=300]
 
 Gröna lund hade även ett lagom bra betyg på datoranvändning men deras mobilanvändning hade ett rejält dåligt betyg. Det de skulle kunna göra för att göra mobilanvändning bättre är skicka bilder i modernare bildformat samt ta bort resurser som blockerar renderingen
 
 ##### RED BULL
 
-[FIGURE src=image/redbull.jpg?w=300](bilden kan ni se hos andeas eller alex)
+[FIGURE src=image/r.jpg?w=300]
 
 Redbulls hemsida är väldigt bra inom datoranvändning och ganska bra inom mobilanvändning. Det de kan förbättra med deras hemsida inom mobilanvändning är att använda bilder med rätt storlek och skicka bilder i modernare format. Men generellt är denna hemsida bra för bägge mobilanvändning och datoranvändning.
 
